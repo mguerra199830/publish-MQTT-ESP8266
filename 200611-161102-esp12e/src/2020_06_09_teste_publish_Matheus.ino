@@ -1,4 +1,4 @@
-//VERSÃO 1.0 concatenação
+//VERSÃO 1.0 concatenação antigo teste
 //Importação de Bibliotecas
 #include <WiFi.h>  //Importa Biblioteca do módulo WiFi
 #include <PubSubClient.h> //Importa Biblioteca de publish e subscribe
