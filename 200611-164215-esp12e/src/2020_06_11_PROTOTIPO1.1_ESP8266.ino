@@ -9,11 +9,11 @@
 #define ID_MQTT          "NODEMCU1.0_8266"  //ID MQTT do componente
 
 //Variáveis para dados de leitura e armazenamento
-int    quant;
-int    j = 0;
-float  leitura;
-float  tempo;
-float  tempod = 0;
+int   quant;
+int   j = 0;
+float leitura;
+float tempo;
+float tempod = 0;
 float grava = 0;
 float gravac;
 

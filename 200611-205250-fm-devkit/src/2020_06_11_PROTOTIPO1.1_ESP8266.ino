@@ -2,18 +2,18 @@
 //Importação de Bibliotecas
 #include <ESP8266WiFi.h>  //Importa Biblioteca do módulo WiFi
 #include <PubSubClient.h> //Importa Biblioteca de publish e subscribe
-//teste_commit
+
 //Definição de Tópicos e ID do equipamento
 #define TOPICO_SUBSCRIBE "WRITEME"      //Tópico MQTT de leitura
 #define TOPICO_PUBLISH   "README_2"    //Tópico MQTT envio de informações
 #define ID_MQTT          "NODEMCU1.0_8266"  //ID MQTT do componente
 
 //Variáveis para dados de leitura e armazenamento
-int    quant;
-int    j = 0;
-float  leitura;
-float  tempo;
-float  tempod = 0;
+int   quant;
+int   j = 0;
+float leitura;
+float tempo;
+float tempod = 0;
 float grava = 0;
 float gravac;
 
