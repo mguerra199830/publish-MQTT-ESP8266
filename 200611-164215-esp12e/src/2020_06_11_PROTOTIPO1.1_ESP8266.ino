@@ -1,6 +1,6 @@
 //VERSÃO 1.0 concatenação
 //Importação de Bibliotecas
-#include <ESP8266WiFi.h>  //Importa Biblioteca do módulo WiFi
+#include <WiFi.h>  //Importa Biblioteca do módulo WiFi
 #include <PubSubClient.h> //Importa Biblioteca de publish e subscribe
 
 //Definição de Tópicos e ID do equipamento
